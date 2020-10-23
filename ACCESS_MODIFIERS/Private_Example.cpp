@@ -18,8 +18,13 @@ class Circle
 int main()
 {
     Circle obj;
-
+    
+/*    obj.r=10;
+    cout<<obj.r;    */
+    
     cout<<obj.compute(11.33)<<endl;
     
     return 0;
 }
+
+/* we can access the private data members of a class indirectly using the public member functions of the class. */
