@@ -19,10 +19,10 @@ int main()
 {
     Circle obj;
     
-/*    obj.r=10;
+/*    obj.r=10;                        // NOT ALLOWED.
     cout<<obj.r;    */
     
-    cout<<obj.compute(11.33)<<endl;
+    cout<<obj.compute(11.33)<<endl;    // CORRECT WAY.
     
     return 0;
 }
